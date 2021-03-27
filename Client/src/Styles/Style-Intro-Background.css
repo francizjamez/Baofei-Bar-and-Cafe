@@ -1,52 +1,51 @@
-
 #container {
-    position: relative;
-    width: 100%;
-    height: auto;
+  position: relative;
+  width: 100%;
+  height: auto;
 }
 
 #img-background {
-    width: 100%;
-    height: auto;
-    alt: "Intro Background";
-    filter: brightness(25%);
-    overflow-x:hidden;
-    overflow-y:hidden;
+  width: 100%;
+  height: auto;
+  alt: "Intro Background";
+  filter: brightness(25%);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 #img-logo {
-    position:absolute;
-    alt: "Baofei Logo";
-    width: 25%;
-    height: auto;
-    z-index:10;
-    left: calc(50% - 25%/2);
-    top: calc(50% - 70%/2);
+  position: absolute;
+  alt: "Baofei Logo";
+  width: 25%;
+  height: auto;
+  z-index: 10;
+  left: calc(50% - 25% / 2);
+  top: calc(50% - 70% / 2);
 }
 
 #img-twitter {
-    position: absolute;
-    alt: "Twitter Logo";
-    width: 7%;
-    height: auto;
-    left: calc(50% - 25%/2);
-    top: calc(50% - -40%/2);
+  position: absolute;
+  alt: "Twitter Logo";
+  width: 7%;
+  height: auto;
+  left: calc(50% - 25% / 2);
+  top: calc(50% - -40% / 2);
 }
 
 #img-facebook {
-    position: absolute;
-    alt: "Twitter Logo";
-    width: 7%;
-    height: auto;
-    left: calc(50% - 7%/2);
-    top: calc(50% - -40%/2);
+  position: absolute;
+  alt: "Twitter Logo";
+  width: 7%;
+  height: auto;
+  left: calc(50% - 7% / 2);
+  top: calc(50% - -40% / 2);
 }
 
 #img-instagram {
-    position: absolute;
-    alt: "Twitter Logo";
-    width: 7%;
-    height: auto;
-    left: calc(50% - -13%/2);
-    top: calc(50% - -40%/2);
+  position: absolute;
+  alt: "Twitter Logo";
+  width: 7%;
+  height: auto;
+  left: calc(50% - -13% / 2);
+  top: calc(50% - -40% / 2);
 }
