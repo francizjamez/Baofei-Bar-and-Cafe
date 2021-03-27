@@ -1,6 +1,7 @@
+import express from "express";
 const router = require("express").Router();
-let Menu = require("../models/menu.model");
-const { getMenu } = require("../controllers/menu.js");
+
+import { getMenu } from "../controllers/menu.js";
 
 router.get("/", getMenu);
 
