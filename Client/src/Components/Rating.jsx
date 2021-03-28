@@ -10,7 +10,7 @@ const Rating = ({ rating, size }) => {
   const createRating = (n) => {
     let ratings = [];
 
-    let star = <img src={Star} style={starStyle} />;
+    let star = <img src={Star} style={starStyle} alt="star icon" />;
 
     for (let i = 0; i < n; i++) {
       ratings.push(star);

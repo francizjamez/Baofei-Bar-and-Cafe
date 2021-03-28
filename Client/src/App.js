@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
+import "./Styles/Main.css";
 import Navbar from "./Components/Navbar.jsx";
-import IntroBackground from "./Components/Intro-Background.jsx";
+import Introduction from "./Components/Introduction.jsx";
 import Featured from "./Components/Featured.jsx";
 import Menu from "./Components/Menu.jsx";
 
@@ -11,7 +12,7 @@ function App() {
     <div>
       <Router>
         <Navbar />
-        <IntroBackground />
+        <Introduction />
         <Featured />
         <Menu />
       </Router>
