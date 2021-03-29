@@ -11,25 +11,17 @@ function App() {
   return (
     <div>
       <Router>
-<<<<<<< HEAD
         <Switch>
           <Route path="/admin">
             <h1>You are in admin</h1>
           </Route>
-
           <Route path="/">
             <Navbar />
-            <IntroBackground />
+            <Introduction />
             <Featured />
             <Menu />
           </Route>
         </Switch>
-=======
-        <Navbar />
-        <Introduction />
-        <Featured />
-        <Menu />
->>>>>>> 9fbb110b7c48fb4e63c11206cfeb14224f76fb9a
       </Router>
     </div>
   );
