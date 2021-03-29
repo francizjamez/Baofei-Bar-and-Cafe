@@ -1,8 +1,8 @@
 .container-rect {
-    text-align: center;
+  text-align: center;
 }
 
-.btn-rect{
+.btn-rect {
   border: 1px solid black;
   background: none;
   padding: 8px 80px;
@@ -13,19 +13,24 @@
   position: relative;
   overflow: hidden;
 }
-.rect-1,.rect-2{
+.rect-1,
+.rect-2 {
   color: black;
 }
-.rect-3,.rect-4{
+.rect-3,
+.rect-4 {
   color: white;
 }
-.rect-1:hover,.rect-2:hover{
+.rect-1:hover,
+.rect-2:hover {
   color: white;
 }
-.rect-3:hover,.rect-4:hover{
+.rect-3:hover,
+.rect-4:hover {
   color: black;
 }
-.btn-rect::before{
+
+.btn-rect::before {
   content: "";
   position: absolute;
   left: 0;
@@ -35,20 +40,25 @@
   z-index: -1;
   transition: 0.8s;
 }
-.rect-1::before,.rect-3::before{
+.rect-1::before,
+.rect-3::before {
   top: 0;
   border-radius: 0 0 40% 40%;
 }
-.rect-2::before,.rect-4::before{
+.rect-2::before,
+.rect-4::before {
   bottom: 0;
   border-radius: 40% 40% 0 0;
 }
-.rect-3::before,.rect-4::before{
+.rect-3::before,
+.rect-4::before {
   height: 180%;
 }
-.rect-1:hover::before,.rect-2:hover::before{
+.rect-1:hover::before,
+.rect-2:hover::before {
   height: 180%;
 }
-.rect-3:hover::before,.rect-4:hover::before{
+.rect-3:hover::before,
+.rect-4:hover::before {
   height: 0%;
 }

@@ -1,0 +1,52 @@
+.featured {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: left;
+}
+
+.col {
+  flex-basis: 40%;
+  margin-bottom: 5%;
+  padding: 1.25rem 0.76rem;
+  box-sizing: border-box;
+}
+
+.col-2 {
+  flex-basis: 50%;
+  /* background: rgb(204, 204, 204);
+    border-radius: 0.625rem; */
+  margin-bottom: 5%;
+  padding: 1.25rem 0.76rem;
+  box-sizing: border-box;
+}
+
+.item-image {
+  width: 331px;
+  height: 331px;
+  object-fit: cover;
+  border-radius: 16.875rem;
+  vertical-align: bottom;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+@media (max-width: 43.75rem) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+slide {
+  top: 0.625rem;
+  left: 0.625rem;
+  right: 0.625rem;
+  bottom: 0.625rem;
+}
