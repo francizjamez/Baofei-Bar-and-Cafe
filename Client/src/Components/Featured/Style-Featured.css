@@ -29,13 +29,15 @@
 }
 
 .item-image {
-  width: 331px;
-  height: 331px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   border-radius: 16.875rem;
   vertical-align: bottom;
   overflow-x: hidden;
   overflow-y: hidden;
+  max-width: 100%;
+  min-width: ;
 }
 
 @media (max-width: 43.75rem) {

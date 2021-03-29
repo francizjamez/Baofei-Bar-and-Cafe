@@ -22,10 +22,7 @@ const Featured = () => {
 
   const next = () => {
     let nextSlide = currentSlide + 1;
-
     setCurrent(nextSlide === featuredItems.length ? 0 : nextSlide);
-
-    console.log(currentSlide);
   };
   return (
     <section id="featured" class="featured">

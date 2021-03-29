@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar.jsx";
 import Introduction from "./Components/Introduction.jsx";
 import Featured from "./Components/Featured/Featured.jsx";
 import Menu from "./Components/Menu.jsx";
+import Admin from "./Components/Admin/Admin";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/admin">
-            <h1>You are in admin</h1>
+            <Admin />
           </Route>
           <Route path="/">
             <Navbar />
