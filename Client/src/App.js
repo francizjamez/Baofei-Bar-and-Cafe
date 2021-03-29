@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Navbar from "./Components/Navbar.jsx";
 import IntroBackground from "./Components/Intro-Background.jsx";
@@ -10,10 +10,18 @@ function App() {
   return (
     <div>
       <Router>
-        <Navbar />
-        <IntroBackground />
-        <Featured />
-        <Menu />
+        <Switch>
+          <Route path="/admin">
+            <h1>You are in admin</h1>
+          </Route>
+
+          <Route path="/">
+            <Navbar />
+            <IntroBackground />
+            <Featured />
+            <Menu />
+          </Route>
+        </Switch>
       </Router>
     </div>
   );

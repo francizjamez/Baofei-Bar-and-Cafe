@@ -6,7 +6,7 @@
 
 #img-background {
   width: 100%;
-  height: auto;
+  height: "100vh";
   alt: "Intro Background";
   filter: brightness(25%);
   overflow-x: hidden;

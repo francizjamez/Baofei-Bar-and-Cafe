@@ -1,5 +1,4 @@
 const router = require("express").Router();
-let Menu = require("../models/menu.model");
 const { getMenu } = require("../controllers/menu.js");
 
 router.get("/", getMenu);
