@@ -1,8 +1,8 @@
-import "../Styles/Style-Introduction.css";
-import LogoBaofei from "../Images/Logo-Baofei.png";
-import IconTwitter from "../Images/Icon-Twitter.png";
-import IconFacebook from "../Images/Icon-Facebook.png";
-import IconInstagram from "../Images/Icon-Instagram.png";
+import "./Style-Introduction.css";
+import LogoBaofei from "./Images/Logo-Baofei.png";
+import IconTwitter from "./Images/Icon-Twitter.png";
+import IconFacebook from "./Images/Icon-Facebook.png";
+import IconInstagram from "./Images/Icon-Instagram.png";
 
 function App() {
     return (

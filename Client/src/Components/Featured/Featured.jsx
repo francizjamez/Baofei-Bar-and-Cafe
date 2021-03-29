@@ -26,6 +26,11 @@ const Featured = () => {
   };
   return (
     <section id="featured" class="featured">
+      <h1>Featured</h1>
+      <p class="color-gray">
+        The Specials of the Day! buy them now for they are only sold for today!
+      </p>
+
       {featuredItems[currentSlide]}
       <button style={left} onClick={previous}>
         &#10094;
