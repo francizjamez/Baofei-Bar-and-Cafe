@@ -1,0 +1,15 @@
+.sidebar {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sidebar Button {
+  font-size: 1.09rem;
+  padding: 2rem 0;
+  margin: 0.5rem 0;
+  color: #51f351;
+  background-color: rgba(81, 243, 81, 0.062);
+}

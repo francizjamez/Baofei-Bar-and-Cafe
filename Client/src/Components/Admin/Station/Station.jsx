@@ -1,23 +1,14 @@
-import React from "react";
-import { Grid } from "@material-ui/core";
+import Featured from "./Featured/Featured";
+import Menu from "./Menu/Menu";
 
-import Days from "./Days/Days";
-import Table from "./Table/Table";
+import "./Station.css";
 
-import makeStyles from "./Styles";
-
-const Station = () => {
-  const { station } = makeStyles();
+const Station = ({ page }) => {
   return (
-    <Grid container direction="column" style={station} alignItems="stretch">
-      <Grid item>
-        <Days />
-      </Grid>
-
-      <Grid item>
-        <Table />
-      </Grid>
-    </Grid>
+    <div className="station">
+      {page === "featured" && <Featured />}
+      {page === "menu" && <Menu />}
+    </div>
   );
 };
 

@@ -1,0 +1,36 @@
+.menu-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.overlay .add-btn {
+  background-color: rgba(0, 68, 255, 0.548);
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #eeeeee;
+  left: 40%;
+  top: 7%;
+}
+
+.overlay form {
+  background-color: rgba(255, 255, 255, 0.733);
+  position: relative;
+  width: 40%;
+  top: 25%;
+  left: 25%;
+  height: 40%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+}

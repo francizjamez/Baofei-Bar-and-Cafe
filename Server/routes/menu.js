@@ -1,20 +1,9 @@
 const router = require("express").Router();
-const { getMenu } = require("../controllers/menu.js");
+const { getMenu, addMenu } = require("../controllers/menu.js");
 
 router.get("/", getMenu);
 
-// router.route("/add").post((req, res) => {
-//   const menuName = req.body.menuName;
-
-//   const newMenu = new Menu({
-//     menuName,
-//   });
-
-//   newMenu
-//     .save()
-//     .then(() => res.json("Menu added!"))
-//     .catch((err) => res.status(400).json("Error: " + err));
-// });
+router.post("/add", addMenu);
 
 // router.route("/:id").get((req, res) => {
 //   Exercise.findById(req.params.id)

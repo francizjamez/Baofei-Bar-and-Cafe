@@ -1,21 +1,42 @@
-import { Grid, Button } from "@material-ui/core";
-import makeStyles from "./Styles";
+import { Button } from "@material-ui/core";
+import "./Styles.css";
 
-const Sidebar = () => {
-  const { sideBar } = makeStyles();
+const Sidebar = ({ changePage }) => {
   return (
-    <Grid container spacing={2} direction="column" style={sideBar}>
-      <Grid item align="stretch">
-        <Button color="secondary" fullWidth>
-          Featured
-        </Button>
-      </Grid>
-      <Grid item>
-        <Button color="primary" fullWidth>
-          Home
-        </Button>
-      </Grid>
-    </Grid>
+    <div className="sidebar">
+      <Button
+        size="large"
+        color="secondary"
+        fullWidth
+        onClick={() => changePage("intro")}
+      >
+        Intro page
+      </Button>
+      <Button
+        size="large"
+        color="secondary"
+        fullWidth
+        onClick={() => changePage("featured")}
+      >
+        Featured
+      </Button>
+      <Button
+        size="large"
+        color="secondary"
+        fullWidth
+        onClick={() => changePage("menu")}
+      >
+        Menu
+      </Button>
+      <Button
+        size="large"
+        color="secondary"
+        fullWidth
+        onClick={() => changePage("items")}
+      >
+        Items
+      </Button>
+    </div>
   );
 };
 

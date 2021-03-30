@@ -3,7 +3,8 @@ const { Schema } = mongoose;
 
 const menuSchema = new Schema(
   {
-    menuName: { type: String, required: true },
+    menuName: { type: String, required: true, unique: true },
+    img: { type: String },
   },
   { timestamps: true }
 );
