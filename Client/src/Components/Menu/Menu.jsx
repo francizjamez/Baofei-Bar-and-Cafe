@@ -8,7 +8,7 @@ const Menu = () => {
   const [menuItems, setMenu] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/menu/").then((res) => {
+    axios.get("https://baofei.herokuapp.com/menu/").then((res) => {
       setMenu(res.data);
     });
   });

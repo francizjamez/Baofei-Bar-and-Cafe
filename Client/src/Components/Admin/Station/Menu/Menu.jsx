@@ -31,7 +31,7 @@ const Menu = () => {
   const saveMenu = (e) => {
     e.preventDefault();
 
-    axios.post("http://localhost:5000/menu/add", menuData);
+    axios.post("https://baofei.herokuapp.com/add", menuData);
     console.log("tried to post");
   };
 
