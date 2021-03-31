@@ -3,7 +3,8 @@ import { Button, TextField } from "@material-ui/core";
 import { useState } from "react";
 import FileBase from "react-file-base64";
 import "./Menu.css";
-import axios from "axios";
+
+import { addMenu } from "../../../../api";
 
 const Menu = () => {
   const [showForm, setShow] = useState(false);
@@ -30,9 +31,7 @@ const Menu = () => {
 
   const saveMenu = (e) => {
     e.preventDefault();
-
-    axios.post("https://baofei.herokuapp.com/add", menuData);
-    console.log("tried to post");
+    addMenu(menuData);
   };
 
   return (

@@ -18,6 +18,11 @@ const makeStyles = () => {
       boxSizing: "border-box",
       marginRight: "1rem",
     },
+
+    imgStyle: {
+      width: "18rem",
+      height: "18rem",
+    },
   };
 };
 

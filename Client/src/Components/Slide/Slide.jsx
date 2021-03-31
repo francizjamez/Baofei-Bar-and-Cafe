@@ -4,14 +4,14 @@ import ButtonRect from "../ButtonRect";
 import makeStyles from "./Styles";
 
 const Slide = ({ img }) => {
-  const { day, row_rating, col_rating } = makeStyles();
+  const { day, row_rating, col_rating, imgStyle } = makeStyles();
 
   return (
     <div>
       <h2 style={day}>Monday</h2>
       <div class="row">
         <div class="col">
-          <img class="item-image" src={img} alt="Food Item" />
+          <img class="item-image" src={img} alt="Food Item" style={imgStyle} />
         </div>
         <div class="col-2">
           <h2 class="align-left" text-align="left">
