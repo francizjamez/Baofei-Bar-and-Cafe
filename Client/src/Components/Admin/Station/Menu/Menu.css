@@ -8,7 +8,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  pointer-events: none;
 }
 
 .overlay .add-btn {
@@ -20,7 +19,6 @@
   color: #eeeeee;
   left: 40%;
   top: 7%;
-  pointer-events: auto;
 }
 
 .overlay form {
@@ -31,8 +29,18 @@
   left: 25%;
   height: 40%;
   padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
+/*# sourceMappingURL=Menu.css.map */

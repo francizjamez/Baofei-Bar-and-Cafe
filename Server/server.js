@@ -23,10 +23,8 @@ connection.once("open", () => {
 });
 
 const menuRouter = require("./routes/menu");
-const itemRouter = require("./routes/item");
 
 app.use("/menu", menuRouter);
-app.use("/item", itemRouter);
 
 app.listen(port, () => {
   console.log(`server is running on port: ${port}`);

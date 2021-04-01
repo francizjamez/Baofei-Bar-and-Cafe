@@ -19,6 +19,8 @@ const addMenu = (req, res) => {
     .then(() => res.json("Menu added!"))
     .catch((err) => {
       res.status(400).json("Error: " + err);
+      console.log(req.body.menuName);
+      console.log(img);
     });
 };
 

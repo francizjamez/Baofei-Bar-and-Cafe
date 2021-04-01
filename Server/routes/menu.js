@@ -2,6 +2,7 @@ const router = require("express").Router();
 const { getMenu, addMenu } = require("../controllers/menu.js");
 
 router.get("/", getMenu);
+
 router.post("/add", addMenu);
 
 // router.route("/:id").get((req, res) => {

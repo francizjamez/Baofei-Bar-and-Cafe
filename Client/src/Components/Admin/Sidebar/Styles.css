@@ -1,9 +1,16 @@
 .sidebar {
   background-color: black;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .sidebar Button {
@@ -13,3 +20,4 @@
   color: #51f351;
   background-color: rgba(81, 243, 81, 0.062);
 }
+/*# sourceMappingURL=Styles.css.map */
