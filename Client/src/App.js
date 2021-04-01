@@ -16,9 +16,7 @@ function App() {
           <Route path="/admin">
             <Admin />
           </Route>
-          <Route path="/menu">
-            <h1>You are in menu</h1>
-          </Route>
+          <Route path="/menu"></Route>
           <Route path="/">
             <Navbar />
             <Introduction />
