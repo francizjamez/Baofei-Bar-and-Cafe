@@ -2,9 +2,12 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+
   height: 100vh;
 
   * {
     padding: 1vh 0;
+    width: 20rem;
   }
 }

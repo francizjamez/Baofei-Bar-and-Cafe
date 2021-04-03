@@ -4,9 +4,10 @@ const { Schema } = mongoose;
 const itemSchema = new Schema(
   {
     itemName: { type: String, required: true },
-    price: { type: Number, require: true },
+    price: { type: Number, required: true },
     rating: { type: Number },
     img: { type: String },
+    category: { type: String, required: true },
   },
   { timestamps: true }
 );

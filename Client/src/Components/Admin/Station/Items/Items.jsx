@@ -82,7 +82,7 @@ const Items = () => {
         multiple={false}
         onDone={({ base64 }) => setPicture(base64)}
       />
-      <Button type="submit" color="primary" variant="outlined">
+      <Button type="submit" color="primary" variant="contained">
         Submit
       </Button>
     </form>
